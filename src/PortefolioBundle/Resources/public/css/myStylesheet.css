@@ -1,0 +1,50 @@
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+.navbar-brand:hover{
+    color: #1abc9c !important;
+}
+.container-fluid {
+    padding-top: 70px;
+}
+.bg-1{
+    background-color: #1abc9c;/*GREEN*/
+    color: #FFFFFF;
+}
+.bg-2 {
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+}
+.bg-3 {
+    background-color: #ffffff; /* White */
+    color: #555555;
+}
+.bg-4 {
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+
+.parcoursPerso{
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
+.portfolio-item{
+    margin-bottom: 30px;
+    height: 380px;
+}
+
+.index_img{
+    width: 300px;
+    height: 200px;
+}
