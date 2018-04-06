@@ -19,15 +19,6 @@ class PortfolioController extends Controller
         return $this->render("PortefolioBundle:Portfolio:index.html.twig", array('lesProjet'=>$listProjet) );
     }
 
-    public function  afficherListeAction()
-    {
-        //on récup tout les projets
-        //$projetRepository = $this->getDoctrine()->getManager()->getRepository('PortefolioBundle:Projet');
-        //$listProjet = $projetRepository->findAll();
-
-//        return $this->render("PortefolioBundle:Portfolio:index.html.twig", array('lesProjet'=>$listProjet) );
-    }
-
     public function  afficherUnProjetAction($id)
     {
         $ProjetRepository = $this->getDoctrine()->getManager()->getRepository("PortefolioBundle:Projet");
