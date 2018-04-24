@@ -15,7 +15,7 @@
     color: #1abc9c !important;
 }
 .container-fluid {
-    padding-top: 70px;
+    padding-top: 20px;
 }
 .bg-1{
     background-color: #1abc9c;/*GREEN*/
@@ -46,7 +46,6 @@
 
 .portfolio-item{
     margin-bottom: 30px;
-    height: 380px;
 }
 
 .index_img{
